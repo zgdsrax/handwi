@@ -1,0 +1,87 @@
+{
+  "rules": {
+    "slant": {
+      "leftward": {
+        "range": [-90, -15],
+        "traits": ["introspective", "reserved", "cautious", "analytical"]
+      },
+      "upright": {
+        "range": [-15, 15],
+        "traits": ["balanced", "controlled", "practical", "reliable"]
+      },
+      "rightward": {
+        "range": [15, 90],
+        "traits": ["outgoing", "emotional", "spontaneous", "expressive"]
+      }
+    },
+    "spacing": {
+      "tight": {
+        "range": [0, 0.3],
+        "traits": ["focused", "detail-oriented", "sometimes anxious", "thorough"]
+      },
+      "normal": {
+        "range": [0.3, 0.7],
+        "traits": ["well-organized", "balanced", "socially comfortable", "adaptable"]
+      },
+      "wide": {
+        "range": [0.7, 1.0],
+        "traits": ["independent", "needs space", "creative", "free-spirited"]
+      }
+    },
+    "size": {
+      "small": {
+        "range": [0, 0.4],
+        "traits": ["modest", "detail-focused", "introspective", "precise"]
+      },
+      "medium": {
+        "range": [0.4, 0.7],
+        "traits": ["balanced", "adaptable", "socially aware", "practical"]
+      },
+      "large": {
+        "range": [0.7, 1.0],
+        "traits": ["confident", "outgoing", "ambitious", "expressive"]
+      }
+    },
+    "pressure": {
+      "light": {
+        "range": [0, 0.3],
+        "traits": ["sensitive", "gentle", "adaptable", "empathetic"]
+      },
+      "medium": {
+        "range": [0.3, 0.7],
+        "traits": ["balanced energy", "stable", "reliable", "consistent"]
+      },
+      "heavy": {
+        "range": [0.7, 1.0],
+        "traits": ["determined", "strong-willed", "passionate", "decisive"]
+      }
+    }
+  },
+  "personalityTemplates": [
+    {
+      "combination": ["outgoing", "confident", "expressive"],
+      "title": "The Natural Leader",
+      "description": "You have a magnetic personality that draws people in. Your confidence and expressiveness make you a natural leader who isn't afraid to take charge."
+    },
+    {
+      "combination": ["introspective", "detail-oriented", "analytical"],
+      "title": "The Deep Thinker",
+      "description": "You possess a thoughtful and analytical mind. You prefer to observe and reflect before acting, making you an excellent problem solver."
+    },
+    {
+      "combination": ["creative", "independent", "free-spirited"],
+      "title": "The Creative Soul",
+      "description": "You march to the beat of your own drum. Your creative spirit and independence allow you to see the world from unique perspectives."
+    },
+    {
+      "combination": ["balanced", "reliable", "practical"],
+      "title": "The Steady Rock",
+      "description": "You are the person others turn to for stability and support. Your balanced approach to life makes you incredibly reliable and trustworthy."
+    },
+    {
+      "combination": ["sensitive", "empathetic", "gentle"],
+      "title": "The Compassionate Heart",
+      "description": "You have a deep well of empathy and understanding. Your sensitivity to others' emotions makes you a natural healer and supporter."
+    }
+  ]
+}

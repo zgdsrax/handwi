@@ -1,0 +1,127 @@
+<svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="200" fill="white" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Sample handwritten text: "Hello World! This is a test." -->
+  <g fill="none" stroke="#333" stroke-width="2" stroke-linecap="round">
+    <!-- H -->
+    <path d="M 20 50 L 20 100" />
+    <path d="M 35 50 L 35 100" />
+    <path d="M 20 75 L 35 75" />
+    
+    <!-- e -->
+    <path d="M 50 85 Q 60 75 70 85 Q 60 95 50 85" />
+    <path d="M 50 85 L 70 85" />
+    
+    <!-- l -->
+    <path d="M 85 50 L 85 100" />
+    
+    <!-- l -->
+    <path d="M 100 50 L 100 100" />
+    
+    <!-- o -->
+    <path d="M 115 75 Q 125 65 135 75 Q 125 95 115 75 Z" />
+    
+    <!-- Space -->
+    
+    <!-- W -->
+    <path d="M 160 75 L 170 100 L 175 85 L 180 100 L 190 75" />
+    
+    <!-- o -->
+    <path d="M 205 75 Q 215 65 225 75 Q 215 95 205 75 Z" />
+    
+    <!-- r -->
+    <path d="M 240 85 L 240 100" />
+    <path d="M 240 85 Q 250 75 255 85" />
+    
+    <!-- l -->
+    <path d="M 270 50 L 270 100" />
+    
+    <!-- d -->
+    <path d="M 285 75 Q 295 65 305 75 Q 295 95 285 75 Z" />
+    <path d="M 305 50 L 305 100" />
+    
+    <!-- ! -->
+    <path d="M 320 75 L 320 90" />
+    <circle cx="320" cy="95" r="2" fill="#333" />
+    
+    <!-- Space -->
+    
+    <!-- T -->
+    <path d="M 350 75 L 380 75" />
+    <path d="M 365 75 L 365 100" />
+    
+    <!-- h -->
+    <path d="M 395 50 L 395 100" />
+    <path d="M 395 85 Q 405 75 415 85 L 415 100" />
+    
+    <!-- i -->
+    <path d="M 430 85 L 430 100" />
+    <circle cx="430" cy="80" r="2" fill="#333" />
+    
+    <!-- s -->
+    <path d="M 445 85 Q 455 75 465 85 Q 455 95 445 95" />
+    
+    <!-- Space -->
+    
+    <!-- i -->
+    <path d="M 480 85 L 480 100" />
+    <circle cx="480" cy="80" r="2" fill="#333" />
+    
+    <!-- s -->
+    <path d="M 495 85 Q 505 75 515 85 Q 505 95 495 95" />
+    
+    <!-- Space -->
+    
+    <!-- a -->
+    <path d="M 530 85 Q 540 75 550 85 Q 540 95 530 85" />
+    <path d="M 550 85 L 550 100" />
+    
+    <!-- Space -->
+    
+    <!-- t -->
+    <path d="M 565 70 L 565 95" />
+    <path d="M 560 80 L 570 80" />
+    
+    <!-- e -->
+    <path d="M 580 85 Q 590 75 600 85 Q 590 95 580 85" />
+    <path d="M 580 85 L 600 85" />
+    
+    <!-- Second line: "Sample handwriting for analysis." -->
+    <g transform="translate(0, 50)">
+      <!-- S -->
+      <path d="M 20 85 Q 30 75 40 85 Q 30 95 20 95" />
+      
+      <!-- a -->
+      <path d="M 55 85 Q 65 75 75 85 Q 65 95 55 85" />
+      <path d="M 75 85 L 75 100" />
+      
+      <!-- m -->
+      <path d="M 90 85 L 90 100" />
+      <path d="M 90 85 Q 100 75 110 85 L 110 100" />
+      <path d="M 110 85 Q 120 75 130 85 L 130 100" />
+      
+      <!-- p -->
+      <path d="M 145 85 L 145 110" />
+      <path d="M 145 85 Q 155 75 165 85 Q 155 95 145 85" />
+      
+      <!-- l -->
+      <path d="M 180 50 L 180 100" />
+      
+      <!-- e -->
+      <path d="M 195 85 Q 205 75 215 85 Q 205 95 195 85" />
+      <path d="M 195 85 L 215 85" />
+      
+      <!-- Additional letters for more analysis data -->
+      <path d="M 240 85 L 240 100" /> <!-- i -->
+      <circle cx="240" cy="80" r="2" fill="#333" />
+      
+      <path d="M 255 85 Q 265 75 275 85 Q 265 95 255 85" /> <!-- o -->
+      
+      <path d="M 290 85 L 290 100" /> <!-- l -->
+    </g>
+  </g>
+  
+  <!-- Guidelines (light) -->
+  <line x1="0" y1="125" x2="600" y2="125" stroke="#eee" stroke-width="1" />
+  <line x1="0" y1="175" x2="600" y2="175" stroke="#eee" stroke-width="1" />
+</svg>
